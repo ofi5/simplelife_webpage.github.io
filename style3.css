@@ -1,0 +1,197 @@
+body {
+    
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300 ;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+
+/* Header and nav */
+
+header {
+    background: #F8F8F8 ;
+    
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 1.5em;
+}
+
+.heading-and-subtitle {
+    text-align: center;
+}
+
+.heading {
+    color: #143774;
+    font-size:1.5rem ;
+    margin: 0%;
+    font-weight: 400;
+    font-family: 'Lora', serif;
+}
+
+.subtitle {
+    color:#1792D2;
+    font-size: 0.72rem;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+}
+
+ul {
+    display: flex;
+    margin:0;
+    padding:0;
+}
+
+.nav-pills {
+    padding: 0 1em;
+    list-style: none;
+    font-size: 0.78rem;
+    font-weight: 700;
+    
+}
+.nav-links {
+    text-decoration: none;
+    color: #717171;
+}
+
+.nav-links:hover, .nav-links:focus {
+color:#1792D2 ;
+}
+
+.link-active {
+    border-bottom: solid 2px #717171;
+    padding: 0.15em;
+}
+
+.link-active:focus, .link-active:hover {
+    color: #717171;
+}
+
+
+/* main */
+
+.body-flex {
+    max-width: 900px;
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+img {
+    width: 100%;
+    margin:10px;
+}
+
+.main-box {
+    display: flex;
+    padding: 10px;
+}
+main {
+    width:70%;
+}
+aside {
+    padding: 10px;
+    width:25%;
+  
+}
+
+.aside-text {
+    font-size: 0.7rem;
+}
+
+.clock, .momos, .plant, .chair {
+    width: 35%;
+
+}
+
+.me, .momos2, .chair2, .plant2 {
+    width: 80%;
+    padding: 0;
+    
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    color: #143774;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 0.8rem;
+    color: #1792D2;
+    font-weight: 400;
+}
+
+.main-para {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: #717171;
+    
+}
+
+.aside-back {
+    background-color:#EBEBEB ;
+    padding: 10px;
+    
+    text-align: center;
+
+}
+
+.aside-front {
+    margin: 10px;
+    background-color: #F8F8F8;
+    padding: 10px;
+}
+
+/* footer */
+
+footer {
+    background-color: #143774;
+
+}
+
+.foot-content {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    color:#EBEBEB;
+    
+    padding: 35px;
+
+}
+
+footer p {
+    padding: 0;
+    margin: 0;
+    font-size: 0.8rem;
+    font-family: 'Ubuntu', sans-serif; 
+    font-weight: 300;
+
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: #1792D2;
+}
+
+.continue {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 0.7rem;
+}
